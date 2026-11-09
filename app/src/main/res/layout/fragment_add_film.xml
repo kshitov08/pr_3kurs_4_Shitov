@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить фильм"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Название фильма"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#FFFFFF"
+            android:background="#2A2A4E"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editGenre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Жанр"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#FFFFFF"
+            android:background="#2A2A4E"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editYear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Год выпуска"
+            android:inputType="number"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#FFFFFF"
+            android:background="#2A2A4E"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editRating"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Рейтинг (0-10)"
+            android:inputType="numberDecimal"
+            android:textColorHint="#AAAAAA"
+            android:textColor="#FFFFFF"
+            android:background="#2A2A4E"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Сохранить фильм"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#54E18D"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnShowList"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Показать список фильмов"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</ScrollView>

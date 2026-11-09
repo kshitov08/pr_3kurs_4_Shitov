@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#1A1A2E">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Авторизация"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/editLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Введите логин"
+        android:textColorHint="#AAAAAA"
+        android:textColor="#FFFFFF"
+        android:background="#2A2A4E"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:textColorHint="#AAAAAA"
+        android:textColor="#FFFFFF"
+        android:background="#2A2A4E"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Войти"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#54E18D"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Регистрация"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:textSize="18sp"/>
+
+</LinearLayout>
